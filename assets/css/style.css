@@ -556,9 +556,11 @@ section {
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
-  margin: 5px;
+  margin-bottom: 5px;
   background-color: #050d18;
   border-radius: 10px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
