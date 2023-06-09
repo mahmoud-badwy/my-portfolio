@@ -668,10 +668,16 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  /* width: 100%; */
-  height:100vh;
+ 
+  height:calc( 100vh - 190px);
+   margin-left: calc( 100% / 2);
+   transform: translateX(-50%)
+
+
 
 }
+
+
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
@@ -727,13 +733,13 @@ section {
   padding: 0;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .portfolio-details .portfolio-details-slider img {
     width: 100%;
 
   
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Services
